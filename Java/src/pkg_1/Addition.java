@@ -5,7 +5,7 @@ public class Addition {
 		int a=5,b=5;
 		int res=a+b;
 		System.out.println(res);
-		int res2=a-b;
+		
 	}
 
 }
