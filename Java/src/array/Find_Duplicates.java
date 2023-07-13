@@ -22,6 +22,7 @@ public class Find_Duplicates {
 						if(a[k]==a[i]) {
 							count--;
 						}
+						
 					}
 				}
 			}
