@@ -22,10 +22,11 @@ public class Add_Word {
 				}
 				if(count==c2.length) {
 					for(int k=0;k<=c1.length;k++) {
-						for(int l=c.length;l>i;l--) {
+						for(int l=c.length-1;l>i+c2.length;l--) {
 							c[l]=c[l-1];
 						}
 					}
+					i=i+c2.length+1;
 					for(int m=0;m<c1.length;m++) {
 						c[i+m]=c1[m];
 					}
