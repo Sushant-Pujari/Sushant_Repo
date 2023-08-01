@@ -32,7 +32,7 @@ public class Cyclos {
 		email.sendKeys("abc@gmail.com");
 		
 		Thread.sleep(3000);
-		By by_Male = By.name("gender");
+		By by_Male = By.xpath("//label[text()=' Male ']");
 		WebElement male = driver.findElement(by_Male);
 		male.click();
 	}
