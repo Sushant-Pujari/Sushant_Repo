@@ -37,7 +37,8 @@ public class Instagram {
 		Thread.sleep(3000);
 		By by_password = By.xpath("//input[@aria-label='Password']");
 		WebElement password = driver.findElement(by_password);
-		password.sendKeys("0123456789");
+		password.sendKeys("0"
+				+ "123456789");
 		
 		
 		
